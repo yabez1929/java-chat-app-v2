@@ -29,22 +29,14 @@ This project demonstrates the use of Java Sockets, threading, and basic networki
 
 ---
 
-### 🖥️ How to Compile
-
-```bash
+### 🖥️ How to Compile:
 javac ChatServer.java ChatClient.java
 
 
- Run the Server
-bash
-Copy
-Edit
+ Run the Server:
 java ChatServer 5050
 
 
-Run the Clients (in separate terminals)
-bash
-Copy
-Edit
+Run the Clients (in separate terminals):
 java ChatClient localhost 5050 Alice
 java ChatClient localhost 5050 Bob

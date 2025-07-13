@@ -36,7 +36,21 @@ javac ChatServer.java ChatClient.java
  Run the Server:
 java ChatServer 5050
 
-
+-------
 Run the Clients (in separate terminals):
 java ChatClient localhost 5050 Alice
 java ChatClient localhost 5050 Bob
+
+
+------------Sample Output
+Server Terminal:
+🟢 Chat Server started on port 5050
+🔗 New client connected: /127.0.0.1
+🟡 Alice joined the chat.
+[Alice]: Hello everyone!
+
+
+Client Terminal (Alice):
+✅ Connected to the server
+🟡 Alice joined the chat.
+[Alice]: Hello everyone!
